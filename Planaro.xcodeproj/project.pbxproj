@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		723875612F38999000CA7E33 /* PlanaroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7238755F2F38999000CA7E33 /* PlanaroApp.swift */; };
+		723875622F38999000CA7E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7238755E2F38999000CA7E33 /* Assets.xcassets */; };
+		7238756D2F3899C900CA7E33 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723875642F3899C900CA7E33 /* View+Extensions.swift */; };
+		7238756E2F3899C900CA7E33 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723875662F3899C900CA7E33 /* ShapeStyle+Extensions.swift */; };
+		7238756F2F3899C900CA7E33 /* PHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723875682F3899C900CA7E33 /* PHomeWebView.swift */; };
+		723875702F3899C900CA7E33 /* PLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7238756A2F3899C900CA7E33 /* PLaunchView.swift */; };
+		723875712F3899C900CA7E33 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723875652F3899C900CA7E33 /* Color+Extensions.swift */; };
+		76ED075294A0DEE517D6A746 /* Pods_Planaro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2A4FB66EB432C9DBD3687D /* Pods_Planaro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DE2300FCB10111455CE9801 /* Pods-Planaro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planaro.release.xcconfig"; path = "Target Support Files/Pods-Planaro/Pods-Planaro.release.xcconfig"; sourceTree = "<group>"; };
+		723875502F38998000CA7E33 /* Planaro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planaro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7238755E2F38999000CA7E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7238755F2F38999000CA7E33 /* PlanaroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanaroApp.swift; sourceTree = "<group>"; };
+		723875642F3899C900CA7E33 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		723875652F3899C900CA7E33 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		723875662F3899C900CA7E33 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		723875682F3899C900CA7E33 /* PHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHomeWebView.swift; sourceTree = "<group>"; };
+		7238756A2F3899C900CA7E33 /* PLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLaunchView.swift; sourceTree = "<group>"; };
+		723875722F3899F300CA7E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7A2A4FB66EB432C9DBD3687D /* Pods_Planaro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Planaro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE598F7F8CEEF02F79DB7AD3 /* Pods-Planaro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planaro.debug.xcconfig"; path = "Target Support Files/Pods-Planaro/Pods-Planaro.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7238754D2F38998000CA7E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ED075294A0DEE517D6A746 /* Pods_Planaro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5092BFDA6407A6708EFDE9D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A2A4FB66EB432C9DBD3687D /* Pods_Planaro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		723875472F38998000CA7E33 = {
+			isa = PBXGroup;
+			children = (
+				723875602F38999000CA7E33 /* Planaro */,
+				723875512F38998000CA7E33 /* Products */,
+				E11B8E11B5B757C7C3BF3039 /* Pods */,
+				5092BFDA6407A6708EFDE9D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		723875512F38998000CA7E33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				723875502F38998000CA7E33 /* Planaro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		723875602F38999000CA7E33 /* Planaro */ = {
+			isa = PBXGroup;
+			children = (
+				723875722F3899F300CA7E33 /* Info.plist */,
+				723875672F3899C900CA7E33 /* Extensions */,
+				7238756C2F3899C900CA7E33 /* Screens */,
+				723875632F38999400CA7E33 /* App */,
+				7238755E2F38999000CA7E33 /* Assets.xcassets */,
+			);
+			path = Planaro;
+			sourceTree = "<group>";
+		};
+		723875632F38999400CA7E33 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7238755F2F38999000CA7E33 /* PlanaroApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		723875672F3899C900CA7E33 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				723875642F3899C900CA7E33 /* View+Extensions.swift */,
+				723875652F3899C900CA7E33 /* Color+Extensions.swift */,
+				723875662F3899C900CA7E33 /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		723875692F3899C900CA7E33 /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				723875682F3899C900CA7E33 /* PHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		7238756B2F3899C900CA7E33 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7238756A2F3899C900CA7E33 /* PLaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		7238756C2F3899C900CA7E33 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				723875692F3899C900CA7E33 /* HomeWebScreen */,
+				7238756B2F3899C900CA7E33 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E11B8E11B5B757C7C3BF3039 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE598F7F8CEEF02F79DB7AD3 /* Pods-Planaro.debug.xcconfig */,
+				0DE2300FCB10111455CE9801 /* Pods-Planaro.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7238754F2F38998000CA7E33 /* Planaro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7238755B2F38998100CA7E33 /* Build configuration list for PBXNativeTarget "Planaro" */;
+			buildPhases = (
+				EBD80CAC7505E716D35567FB /* [CP] Check Pods Manifest.lock */,
+				7238754C2F38998000CA7E33 /* Sources */,
+				7238754D2F38998000CA7E33 /* Frameworks */,
+				7238754E2F38998000CA7E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Planaro;
+			productName = Planaro;
+			productReference = 723875502F38998000CA7E33 /* Planaro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		723875482F38998000CA7E33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					7238754F2F38998000CA7E33 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 7238754B2F38998000CA7E33 /* Build configuration list for PBXProject "Planaro" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 723875472F38998000CA7E33;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 55;
+			productRefGroup = 723875512F38998000CA7E33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7238754F2F38998000CA7E33 /* Planaro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7238754E2F38998000CA7E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723875622F38999000CA7E33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EBD80CAC7505E716D35567FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Planaro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7238754C2F38998000CA7E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723875612F38999000CA7E33 /* PlanaroApp.swift in Sources */,
+				7238756D2F3899C900CA7E33 /* View+Extensions.swift in Sources */,
+				7238756E2F3899C900CA7E33 /* ShapeStyle+Extensions.swift in Sources */,
+				7238756F2F3899C900CA7E33 /* PHomeWebView.swift in Sources */,
+				723875702F3899C900CA7E33 /* PLaunchView.swift in Sources */,
+				723875712F3899C900CA7E33 /* Color+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		723875592F38998100CA7E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7238755A2F38998100CA7E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7238755C2F38998100CA7E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE598F7F8CEEF02F79DB7AD3 /* Pods-Planaro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Planaro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Planaro;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kornettaproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		7238755D2F38998100CA7E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DE2300FCB10111455CE9801 /* Pods-Planaro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Planaro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Planaro;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kornettaproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7238754B2F38998000CA7E33 /* Build configuration list for PBXProject "Planaro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723875592F38998100CA7E33 /* Debug */,
+				7238755A2F38998100CA7E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7238755B2F38998100CA7E33 /* Build configuration list for PBXNativeTarget "Planaro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7238755C2F38998100CA7E33 /* Debug */,
+				7238755D2F38998100CA7E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 723875482F38998000CA7E33 /* Project object */;
+}
